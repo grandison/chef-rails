@@ -1,15 +1,119 @@
-cookbook 'ohai', :locked_version => '1.1.8'
-cookbook 'build-essential', :locked_version => '1.3.4'
-cookbook 'htpasswd-cookbook', :git => 'https://github.com/Youscribe/htpasswd-cookbook.git', :ref => 'cc5652ae308e3e6a869bd3e3d108385f60a113ec'
-cookbook 'chef-redis', :git => 'https://github.com/ctrabold/chef-redis.git', :ref => 'e3a89f34d0f5b81867ae9e07a9404ac89e1ff61c'
-cookbook 'apt', :locked_version => '1.9.2'
-cookbook 'yum', :locked_version => '2.2.0'
-cookbook 'chef-rvm', :git => 'https://github.com/fnichol/chef-rvm.git', :ref => '08a06bc7c3c9fd0fb6b3a9b80f27bd74e109660c'
-cookbook 'nginx', :git => 'https://github.com/metastudio/nginx.git', :ref => 'a719eafd9e304678b6fdeaa24f57b2c995e824e4'
-cookbook 'java', :locked_version => '1.10.0'
-cookbook 'windows', :locked_version => '1.8.8'
-cookbook 'chef_handler', :locked_version => '1.1.4'
-cookbook 'chef_gem', :locked_version => '0.1.0'
-cookbook 'bluepill', :locked_version => '2.2.2'
-cookbook 'rsyslog', :locked_version => '1.5.0'
-cookbook 'runit', :locked_version => '0.16.2'
+{
+  "sources": {
+    "chef-rails-ssh": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/metastudio/chef-rails-ssh.git",
+      "ref": "e28cedfd70ab63ad360beb8940434a2f0aae34b6"
+    },
+    "chef-rails-application": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/metastudio/chef-rails-application.git",
+      "ref": "860051e97b47a26067dd8a6c28ae4a30915f1a00"
+    },
+    "chef-rails-database": {
+      "locked_version": "0.0.2",
+      "git": "https://github.com/grandison/chef-rails-database.git",
+      "ref": "8445fcfc14804c6988e6d840b213a1281b401355"
+    },
+    "chef-rails-frontend": {
+      "locked_version": "0.0.2",
+      "git": "https://github.com/metastudio/chef-rails-frontend.git",
+      "ref": "71eb58f3cc54c1b38d9d43e40fb0c9b2743930b0"
+    },
+    "chef-rails-monitoring": {
+      "locked_version": "0.0.2",
+      "git": "https://github.com/metastudio/chef-rails-monitoring.git",
+      "ref": "70942573c862fc5b7d5a1507f96654e2c224074c"
+    },
+    "ohai": {
+      "locked_version": "1.1.8"
+    },
+    "apt": {
+      "locked_version": "1.9.2"
+    },
+    "yum": {
+      "locked_version": "2.2.0"
+    },
+    "build-essential": {
+      "locked_version": "1.3.4"
+    },
+    "htpasswd": {
+      "locked_version": "0.0.3",
+      "git": "https://github.com/Youscribe/htpasswd-cookbook.git",
+      "ref": "197a76b9f16baa9c240f030330e6f96c8ef5fd87"
+    },
+    "sudo": {
+      "locked_version": "2.2.2"
+    },
+    "chef-solo-search": {
+      "locked_version": "0.5.1",
+      "git": "https://github.com/edelight/chef-solo-search",
+      "ref": "681f78a108f5f8a3655551b32d9939603628c568"
+    },
+    "rvm": {
+      "locked_version": "0.9.1",
+      "git": "https://github.com/fnichol/chef-rvm.git",
+      "ref": "59dc482e2c39db4c378e79e10569f1becdc4bc43"
+    },
+    "nginx": {
+      "locked_version": "1.4.0",
+      "git": "https://github.com/metastudio/nginx.git",
+      "ref": "a719eafd9e304678b6fdeaa24f57b2c995e824e4"
+    },
+    "postfix": {
+      "locked_version": "3.0.2"
+    },
+    "redis": {
+      "locked_version": "0.0.4",
+      "git": "https://github.com/ctrabold/chef-redis.git",
+      "ref": "e3a89f34d0f5b81867ae9e07a9404ac89e1ff61c"
+    },
+    "percona": {
+      "locked_version": "0.14.5",
+      "git": "https://github.com/grandison/chef-percona.git",
+      "ref": "b787c59ffd000d28723cb8026c50fdd1f2886a62"
+    },
+    "database": {
+      "locked_version": "1.5.2"
+    },
+    "monit": {
+      "locked_version": "0.7.1"
+    },
+    "java": {
+      "locked_version": "1.15.0"
+    },
+    "windows": {
+      "locked_version": "1.11.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "aws": {
+      "locked_version": "1.0.0"
+    },
+    "chef_gem": {
+      "locked_version": "0.1.0"
+    },
+    "bluepill": {
+      "locked_version": "2.3.0"
+    },
+    "rsyslog": {
+      "locked_version": "1.9.0"
+    },
+    "runit": {
+      "locked_version": "0.16.2"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "mysql": {
+      "locked_version": "3.0.12"
+    },
+    "postgresql": {
+      "locked_version": "3.1.0"
+    },
+    "xfs": {
+      "locked_version": "1.1.0"
+    }
+  }
+}
