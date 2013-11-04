@@ -7,8 +7,8 @@
     },
     "chef-rails-application": {
       "locked_version": "0.0.1",
-      "git": "https://github.com/metastudio/chef-rails-application.git",
-      "ref": "860051e97b47a26067dd8a6c28ae4a30915f1a00"
+      "git": "https://github.com/grandison/chef-rails-application.git",
+      "ref": "0f1e6aba962bc718547f0053fdbe2e0c04d33f82"
     },
     "chef-rails-database": {
       "locked_version": "0.0.2",

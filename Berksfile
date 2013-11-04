@@ -3,7 +3,7 @@ site :opscode
 # Supporting cookbooks
 
 cookbook 'chef-rails-ssh',         git: 'https://github.com/metastudio/chef-rails-ssh.git'
-cookbook 'chef-rails-application', git: 'https://github.com/metastudio/chef-rails-application.git'
+cookbook 'chef-rails-application', git: 'https://github.com/grandison/chef-rails-application.git'
 cookbook 'chef-rails-database',    git: 'https://github.com/grandison/chef-rails-database.git'
 cookbook 'chef-rails-frontend',    git: 'https://github.com/metastudio/chef-rails-frontend.git'
 cookbook 'chef-rails-monitoring',  git: 'https://github.com/metastudio/chef-rails-monitoring.git'
